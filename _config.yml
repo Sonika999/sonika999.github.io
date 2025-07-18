@@ -1,0 +1,21 @@
+title: "Sonika Singhal"
+description: "Ph.D. Candidate, VCU | Researcher in AI, Digital Platforms, and Cybersecurity"
+theme: jekyll-theme-minimal
+
+logo: /assets/img/profile.jpg
+
+navigation:
+  - title: "About"
+    url: "/"
+  - title: "Research"
+    url: "/research"
+  - title: "Publications"
+    url: "/publications"
+  - title: "Teaching"
+    url: "/teaching"
+  - title: "CV"
+    url: "/cv"
+  - title: "Service"
+    url: "/service"
+  - title: "Contact"
+    url: "/contact"
