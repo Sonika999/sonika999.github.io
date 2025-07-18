@@ -1,56 +1,27 @@
 title: "Sonika Singhal"
-email: "singhals3@vcu.edu"
-description: >-
-  Ph.D. Candidate | Researcher in AI, Platforms, and Cybersecurity
-url: "https://sonika999.github.io"
-github_username: sonika999
-minimal_mistakes_skin: "default"
-remote_theme: "mmistakes/minimal-mistakes"
+description: "Ph.D. Candidate at VCU"
+remote_theme: academicpages/academicpages.github.io@main
+
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-seo-tag
-  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-scholar
 
-author:
-  name: "Sonika Singhal"
-  avatar: "/assets/img/profile.jpg"
-  bio: "Ph.D. Candidate at Virginia Commonwealth University"
-  links:
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:singhals3@vcu.edu"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/sonika-singhal-53779924"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/sonika999"
-
+# Navbar pages
+include: ["_pages"]
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
-      layout: single
+      layout: page
       author_profile: true
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+paginate: 5
+paginate_path: "/blog/page:num/"
 
-navigation:
-  - title: "About"
-    url: /
-  - title: "Research"
-    url: /research/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "CV"
-    url: /cv/
-  - title: "Publications"
-    url: /publications/
-  - title: "Service"
-    url: /service/
-  - title: "Contact"
-    url: /contact/
+markdown: kramdown
+highlighter: rouge
