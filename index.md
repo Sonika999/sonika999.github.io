@@ -1,5 +1,6 @@
 # About
-
+layout: default
+title: About
 Welcome! I'm **Sonika Singhal**, a Ph.D. candidate in Information Systems at Virginia Commonwealth University.
 
 My research interests lie at the intersection of:
